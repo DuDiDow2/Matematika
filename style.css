@@ -121,7 +121,7 @@ html,
   background-color: transparent;
 }
 html {
-  background: url(background.jpg) center center no-repeat fixed;
+  background: url(img/background.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 body {
@@ -165,4 +165,24 @@ ul.main-menu li a.active {
 }
 .show {
   display: block;
+}
+/* Style dasar untuk tombol */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50; /* Warna latar belakang tombol */
+  color: #ffffff; /* Warna teks tombol */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Efek hover pada tombol */
+button:hover {
+  background-color: #45a049; /* Warna latar belakang saat tombol dihover */
+}
+
+/* Efek aktif pada tombol (ditekan) */
+button:active {
+  background-color: #3e8e41; /* Warna latar belakang saat tombol ditekan */
 }
